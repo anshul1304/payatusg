@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --accent-color: #FF003C;
+    --font-family-ubuntu: "Ubuntu", sans-serif;
+    --font-weight-ubuntu-light: 300;
+    --font-weight-ubuntu-regular: 400;
+    --font-weight-ubuntu-medium: 500;
+    --font-weight-ubuntu-bold: 700; 
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: var(--font-family-ubuntu);
+    color: var(--black-color);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p,
+li {
+    color: var(--black-color);
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+a,
+input[type="button"] {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+
+img {
+    border: 0;
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -webkit-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -moz-transition: width .5s ease-in-out, left .5s ease-in-out;
+    -o-transition: width .5s ease-in-out, left .5s ease-in-out;
+    transition: width .5s ease-in-out, left .5s ease-in-out;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    outline: 0 none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:focus {
+    outline: 0 none;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2
+}
+
+h1 {
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-size: 2.375rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.875rem;
+}
+
+h5 {
+    font-size: 1.625rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+/* * * * * INPUT * * * * */
+
+input[type="file"]:focus,
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+}
+
+button {
+    outline: 0 none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="search"],
+select,
+textarea {
+    font-family: var(--font-family-ubuntu);
+    outline: 0 none
+}
+
+textarea {
+    resize: none
+}
+
+
+@media only screen and (max-width:767px) {
+
+    html {
+        font-size: 14px;
+    }
+
+}

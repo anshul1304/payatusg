@@ -1,0 +1,57 @@
+
+
+@media only screen and (max-width:1100px){
+ .logofrm { padding-left: 30px; padding-right: 30px; } 
+
+.header__buttons { display: block; } 
+
+.header__nav__wrapper { margin-right: 0; margin-left: auto; justify-self: flex-end; z-index: 20; } 
+
+ .header__nav { display: block; position: absolute; width: 100%; height: calc(100vh - 81px); top: 100%; right: -100%; overflow-y: auto; overflow-x: hidden; background-color: #1B1B2C; -webkit-transition: .3s; transition: .3s; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; } 
+
+/* .header__nav { height: calc(100vh - 100px); }  */
+
+.scrolled .header__nav { top: 100%; } 
+
+.header-active .header__nav { right: 0; } 
+
+.header__nav__buttons { width:100%; left: 0; right: 0; position: absolute; bottom: 0; padding-left: 25px; padding-right: 25px; padding-bottom: 25px; flex-wrap: wrap; margin: 0 auto; z-index: -1; justify-content: center; } 
+
+.toplinks ul li { display: block; margin-right: 0; position: relative; } 
+
+.toplinks ul li a { padding: 15px 30px; display: block; color: #fff; } 
+
+.toplinks ul li a:hover, .toplinks ul li:hover a{ background-color:transparent;}
+
+/* .toplinks ul li a:hover{ background-color: #ff003c;} */
+
+.toplinks ul li .sub-nav { visibility: visible; } 
+
+.toplinks ul li .sub-nav ul{ display: block;}
+
+.toplinks ul li .sub-nav  ul li { padding: 0;}
+
+.toplinks ul li .sub-nav  ul li a{ color:#000 ; background-color: transparent; display: block; padding: 15px 10px;}
+
+.toplinks ul li p{ display: none;}
+
+.nav-toggle { display: block; } 
+
+.header__nav .menu-item__parent { position: relative; cursor: pointer; } 
+
+.header__nav .menu-item__icon { display: inline-block; width: 16px; height: 16px; position: absolute; right: 30px; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); } 
+
+ .header__nav .menu-item__icon::before { position: absolute; background: 0 0; width: 100vw; height: 60px; content: ""; right: -30px; bottom: 0; } 
+
+ .toplinks ul li .sub-nav.extended ul li ul li h4{ color: #000; padding: 10px 10px;}
+
+ .toplinks ul li.menu-item-has-children .menu-item__parent {
+ background: url(../images/arrow-down.svg) no-repeat right 35px top 20px; background-size: auto; background-size: 18px; } 
+
+ .toplinks ul li.menu-item-has-children .active { background: url(../images/arrow-up.svg) no-repeat right 35px top 20px; background-size: auto; background-size: 18px; background-color: #ff003c; } 
+ 
+ .toplinks ul li .sub-nav { top:0; position: relative; -webkit-transform: translateY(0); transform: translateY(0); width: calc(100% + 10px); padding: 10px 20px; -webkit-box-shadow: none; box-shadow: none; background: #f5f9ff;  border-radius: 0; overflow: hidden; } 
+
+ .toplinks ul li:hover .sub-nav{ display: none;}
+
+ }

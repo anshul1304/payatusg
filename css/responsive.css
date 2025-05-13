@@ -1,0 +1,392 @@
+@media only screen and (max-width:1200px) {
+
+    .hb-info {
+        height: auto;
+    }
+
+    .home-banner {
+        padding: 300px 20px;
+    }
+
+    .hb-wrap::before {
+        display: none;
+    }
+
+    .hb-info {
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        max-width: 800px;
+    }
+
+    .cards-region {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}
+
+
+@media only screen and (max-width:1100px) {
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .caretdown {
+        display: none !important;
+    }
+
+
+    .gc {
+        position: absolute;
+        right: 0;
+        top: -58px;
+        z-index: 1;
+        width: 50px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+
+    .csro {
+        padding: 150px 20px;
+    }
+
+    .cont-csro {
+        margin: 0 auto 100px;
+        max-width: 100%;
+    }
+
+    .stats-box ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .stats-box ul li {
+        width: 20%;
+    }
+
+    .cards-region {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .highlights-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fsidedesc {
+        padding-right: 0;
+    }
+
+    .f-detailed-links {
+        margin-top: 50px;
+    }
+
+    .f-links {
+        margin-bottom: 30px;
+    }
+
+    .f-links~.f-links {
+        margin-top: 0;
+    }
+
+    .f-links h6 {
+        min-height: 21px;
+    }
+
+
+    .whyus {
+        padding-top: 100px;
+    }
+
+    .title-counter-region {
+        flex-direction: column;
+    }
+
+    .titlewhy {
+        text-align: center;
+        margin-bottom: 50px;
+        padding-right: 0;
+    }
+
+
+
+
+
+    /******Accordion********/
+
+    .bottom-w .nav-btm h6:after {
+        content: url("../images/arrow-d.svg");
+        width: 25px;
+        top: 3px;
+        right: 0;
+        position: absolute
+    }
+
+    .bottom-w .nav-btm.open h6:after {
+        content: url("../images/arrow-u.svg");
+        width: 25px;
+    }
+
+    .f-links ul {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1s ease-out;
+    }
+
+    .nav-btm.open ul {
+        height: auto;
+        max-height: 300px;
+        margin-bottom: 15px;
+        transition: max-height 1s ease-in !important;
+    }
+
+    /******Accordion********/
+
+
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+    .cont-csro {
+        margin-bottom: 50px;
+    }
+
+
+    .hb-info h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .awards-recognition {
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    .ar-txt,
+    .ar-imageregion {
+        width: 100%;
+    }
+
+
+    .inspiration-innovation {
+        background: none;
+    }
+
+    .inspiration-innovation h5 {
+        margin-bottom: 0;
+    }
+
+    .stats-w {
+        padding: 30px 0;
+    }
+
+    .stats-box {
+        padding: 0 0 20px 0;
+    }
+
+    .stats-box ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .stats-box ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .cards-region {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-front {
+        background-position: center;
+    }
+
+    .card-front h6 {
+        font-size: 20px;
+        font-weight: var(--font-weight-ubuntu-bold);
+    }
+
+    .services-w {
+        padding-top: 80px;
+    }
+
+    .services-w:before {
+        background-position: 19px 60px;
+        background-size: 290px auto;
+    }
+
+    .box-desc {
+        flex-direction: column;
+        align-items: first baseline;
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+
+    .desc p {
+        margin-bottom: 50px;
+    }
+
+    .action {
+        margin: 0;
+    }
+
+    .action a {
+        background-color: var(--accent-color);
+        color: var(--white-color);
+        padding: 12px 24px;
+        font-size: 11px;
+    }
+
+    .home-banner,
+    .csro,
+    .whyus,
+    .inspiration-innovation,
+    .testimonial-w,
+    .explore-cswwu,
+    .trustedby-brands,
+    .our-highlights,
+    .simply-company,
+    .trust-payatu,
+    .bottom-w {
+        padding: 60px 20px;
+    }
+
+    .single-fluid {
+        width: 100%;
+    }
+
+    .sliding-brands {
+        margin-top: 0;
+    }
+
+    .sliding-brands img {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .wu-cardregion {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-wu {
+        align-items: flex-start;
+    }
+
+    .icon-b {
+        margin-right: 20px;
+    }
+
+    .whyus:before {
+        background-position: 0 0;
+    }
+
+    .title-counter-region {
+        background: none;
+        margin-bottom: 80px;
+    }
+
+    .counterwhy .stats-box ul li {
+        width: 100%;
+    }
+
+    .our-highlights:before {
+        background-position: 5px 40px;
+        background-size: 332px auto;
+    }
+
+
+    .highlights-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-highlight p {
+        font-size: 20px;
+    }
+
+    .card-highlight {
+        padding-top: 100px;
+    }
+
+    .bg-highlight-2 {
+        margin: 0;
+    }
+
+    .bg-highlight-3 {
+        left: 0;
+    }
+
+    .bg-highlight-4 {
+        left: 0;
+    }
+
+    .simply-company:before {
+        background-position: 12px 74px;
+        background-size: 322px auto;
+    }
+
+
+    .red-cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+
+    .f-links.nogap {
+        margin-bottom: 0;
+    }
+
+
+    .cont-payatu {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .on-payatu:before {
+        background-position: 24px 55px;
+        background-size: 310px auto;
+    }
+
+    .on-payatu h2 {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .socialm-icons {
+        margin-top: 30px;
+    }
+
+    .socialm-icons ul {
+        justify-content: center;
+    }
+
+    .they-trustus h2 {
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .they-trustus p {
+        text-align: center;
+    }
+
+    .tt-slider {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+
+
+
+
+}
