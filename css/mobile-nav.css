@@ -23,6 +23,10 @@
 
 .toplinks ul li a:hover, .toplinks ul li:hover a{ background-color:transparent;}
 
+.toplinks ul li.only-mobile{ display: block;}
+
+.toplinks ul li.only-desktop{ display: none;}
+
 /* .toplinks ul li a:hover{ background-color: #ff003c;} */
 
 .toplinks ul li .sub-nav { visibility: visible; } 
